@@ -31,7 +31,9 @@ The optimizer supports two types of learning rate schedules:
 ```python
 def constant_lr(rate):
     return rate
-2️⃣ Power-based Decay Learning Rate
+```
+2️⃣ **Power-based Decay Learning Rate
+```python
 def power_lr(rate, t, c=1, s=10):
     return rate / (1 + t/s)**c
-
+```
