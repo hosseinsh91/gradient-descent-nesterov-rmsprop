@@ -27,6 +27,7 @@ Its gradient:
 
 ## **📌 Learning Rate Scheduling**
 The optimizer supports two types of learning rate schedules:
+
 1️⃣ **Constant Learning Rate**  
 ```python
 def constant_lr(rate):
